@@ -35,10 +35,8 @@ For reproducing the code, an Anaconda virtual environment is also included. The 
 ```
 conda env create -f resilien.yml
 ```
-After creating and activating the virtual environment, each notebook can be run individually. Please be careful to change the DPATH variable in each notebook with the folder in which the dataset has been downloaded.
-```
-DPATH = '../Dataset/'
-```
+After creating and activating the virtual environment, each notebook can be run individually. Please unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the notebooks.
+
 *  *  *  *  *
 
 
