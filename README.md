@@ -8,7 +8,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15045663.svg)]([https://doi.org/10.5281/zenodo.15045663]) 
 <br/>
 
-RESILIENT Dataset: A Multimodal Approach to Monitoring Ageing-Related Multi-Morbidities and Cognitive Decline.
+The RESILIENT Dataset: Multimodal Monitoring of Ageing-Related Multi-Morbidities and Cognitive Decline.
 The dataset is available on its corresponding [Zenodo repository](https://zenodo.org/record/15045663).
 <!--The full description of this dataset is published in Nature Scientific Data: [paper](https://doi.org/10.1038/s41597-023-02519-y)-->
 
