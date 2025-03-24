@@ -1,7 +1,7 @@
 ## Resilient Dataset
 
 - [Resilient Dataset](#description)
-  * [Summary of Data](#summary-of-data-tables-and-recorded-variables)
+  * [Data description](#description)
   * [Running the code](#running-the-code)
   
 # Description
@@ -16,7 +16,7 @@ The dataset is provided for research purposes and supporting patient care.
 
 Please acknowledge the Surrey and Borders Partnership NHS Foundation Trust and Howz in any publication or use of this dataset. 
 
-
+The RESILIENT dataset is organised into two components: 1). one CSV file containing demographic information and baseline assessments related to mental health and cognitive ability for all participants; 2). individual folders that contain raw data, including sleep state and physiological features recorded by sleep mats, as well as step counts and heart rate from smart watches. More specifically, there are four tables included in each participant folder: ScanWatch Steps, ScanWatch HeartRate, Sleep States, Sleep Physiology. Due to differences in sampling frequencies, these variables are recorded in separate tables. Each folder is named after the participant's unique identifier (UID), allowing cross-referencing between the device data and the demographic information. 
 ### Summary of Data Tables and Recorded Variables
 
 | **Device**     | **Table Name**         | **Variables** |
