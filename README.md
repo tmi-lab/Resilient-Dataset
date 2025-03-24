@@ -35,7 +35,7 @@ For reproducing the code, the required Python packages can be installed using th
 ```
 pip install -r requirements.txt
 ```
-Please unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the code.
+Please download the data from [Zenodo repository](https://zenodo.org/record/15045663) and unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the code.
 
 *  *  *  *  *
 
