@@ -31,11 +31,11 @@ The RESILIENT dataset is organised into two components: 1). one CSV file contain
 
 ## Running the code
 We have provided raw data and guidelines on how to access, aggregate, and visualise the dataset. The Jupyter Notebooks have been developed using Python 3.9. 
-For reproducing the code, an Anaconda virtual environment is also included. The virtual environment can be created using the following line of code in the Anaconda Terminal:
+For reproducing the code, the required Python packages can be installed using the following line of code:
 ```
-conda env create -f resilien.yml
+pip install -r requirements.txt
 ```
-After creating and activating the virtual environment, each notebook can be run individually. Please unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the notebooks.
+Please unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the code.
 
 *  *  *  *  *
 
