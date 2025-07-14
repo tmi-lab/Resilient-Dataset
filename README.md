@@ -5,18 +5,18 @@
   * [Running the code](#running-the-code)
   
 # Description
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15045663.svg)]([https://doi.org/10.5281/zenodo.15045663]) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15877645.svg)]([https://doi.org/10.5281/zenodo.15045662]) 
 <br/>
 
 The RESILIENT Dataset: Multimodal Monitoring of Ageing-Related Multi-Morbidities and Cognitive Decline.
-The dataset is available on its corresponding [Zenodo repository](https://zenodo.org/record/15045663).
+The dataset is available on its corresponding [Zenodo repository](https://doi.org/10.5281/zenodo.15045662).
 <!--The full description of this dataset is published in Nature Scientific Data: [paper](https://doi.org/10.1038/s41597-023-02519-y)-->
 
 The dataset is provided for research purposes and supporting patient care. 
 
 Please acknowledge the Surrey and Borders Partnership NHS Foundation Trust and Howz in any publication or use of this dataset. 
 
-The RESILIENT dataset is organised into two components: 1). one CSV file containing demographic information and baseline assessments related to mental health and cognitive ability for all participants; 2). individual folders that contain raw data, including sleep state and physiological features recorded by sleep mats, as well as step counts and heart rate from smart watches. More specifically, there are four tables included in each participant folder: ScanWatch Steps, ScanWatch HeartRate, Sleep States, Sleep Physiology. Due to differences in sampling frequencies, these variables are recorded in separate tables. Each folder is named after the participant's unique identifier (UID), allowing cross-referencing between the device data and the demographic information. 
+The RESILIENT dataset is organised into four main components: 1) a CSV file containing demographic information and baseline assessments related to mental health and cognitive functioning for all participants; 2) a metadata CSV files describing variables present in the demographic and devices data; 3) a CSV summary file providing per-participant data coverage statistics, including the number of recorded days, average records per day, and the earliest and latest timestamps; and 4) individual participant folders containing raw time-series data, including sleep states and physiological features captured by sleep mats, as well as step counts and heart rate data recorded by smart watches. More specifically, there are four tables included in each participant folder: ScanWatch Steps, ScanWatch HeartRate, Sleep States, and Sleep Physiology. Each folder is named after the participant's unique identifier (UID), allowing cross-referencing between the device data and the demographic information.
 ### Summary of Data Tables and Recorded Variables
 
 | **Device**     | **Table Name**         | **Variables** |
@@ -35,7 +35,7 @@ For reproducing the code, the required Python packages can be installed using th
 ```
 pip install -r requirements.txt
 ```
-Please download the data from [Zenodo repository](https://zenodo.org/record/15045663) and unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the code.
+Please download the data from [Zenodo repository](https://zenodo.org/records/15877645) and unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the code.
 
 *  *  *  *  *
 
