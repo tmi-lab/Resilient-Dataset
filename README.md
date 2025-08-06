@@ -25,7 +25,7 @@ The RESILIENT dataset is organised into four main components: 1) a CSV file cont
 |              | **Heart Rate**        | - **Heart Rate**: Measurements taken every 10 minutes. <br> - **Timestamp**: Timestamp of each record. |
 | **Sleep Mat** | **Sleep States**      | - **Sleep State**: One of four sleep states (Light, Deep, REM, Wake up). <br> - **Start Timestamp**: Start time of the corresponding sleep state. <br> - **End Timestamp**: End time of the corresponding sleep state. |
 |              | **Sleep Physiology**   | - **Heart Rate**: Measured every minute. <br> - **Respiration Rate**: Measured every minute. <br> - **Snoring**: Total snoring duration (seconds) per minute. <br> - **SDNN 1**: Standard deviation of heart rate over a one-minute window. <br> - **Timestamp**: Timestamp of each record. |
-| **N/A**       | **Demographics**      | - **Sex**: Male or Female. <br> - **ACE-III Scores**: Total scores at baseline and 6-month follow-up with individual item scores. <br> - **PHQ-9, GDS-15, GAD-7 Scores**: Total score and individual question scores. <br> - **Assessment Date**: Date each assessment was taken. <br> - **Essential Hypertension**: True or False. <br> - **Osteoarthritis**: True or False. |
+| **N/A**       | **Demographics**      | - **Sex**: Male or Female. <br> - **ACE-III Scores**: Total scores at baseline and 6-month follow-up with individual item scores. <br> - **PHQ-9, GDS-15, GAD-7 Scores**: Total score at baseline and individual question scores. <br> - **Assessment Date**: Date each assessment was taken. <br> - **Essential Hypertension**: True or False. <br> - **Osteoarthritis**: True or False. |
 
 
 
