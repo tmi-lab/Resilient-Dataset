@@ -35,8 +35,21 @@ For reproducing the code, the required Python packages can be installed using th
 ```
 pip install -r requirements.txt
 ```
-Please download the data from [Zenodo repository](https://zenodo.org/records/15877645) and unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the code.
+Please download the data from [Zenodo repository](https://zenodo.org/records/16755408) and unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the code.
+
+All code files are located in the `code` folder. There are two main Jupyter notebooks:
+
+1. **`Preprocessing_data.ipynb`** – This notebook handles all preprocessing tasks for the sleep data. It includes:
+   - Timestamp processing  
+   - Daily aggregation of values  
+   - Sleep state calculations specific to the dataset
+
+2. **`Visualization_data.ipynb`** – This notebook is responsible for generating all the visualizations used in the analysis.
+
+> **Note:** Run `Preprocessing_data.ipynb` first to prepare the data, then run `Visualization_data.ipynb` for visualization.
 
 *  *  *  *  *
+
+
 
 
