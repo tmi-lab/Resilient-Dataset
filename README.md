@@ -39,7 +39,7 @@ Please download the data from [Zenodo repository](https://zenodo.org/records/167
 
 All code files are located in the `code` folder. There are two main Jupyter notebooks:
 
-1. **`Preprocessing_data.ipynb`** – This notebook handles all preprocessing tasks for the sleep data. It includes:
+1. **`Preprocessing_data.ipynb`** – This notebook handles all preprocessing tasks for the Sleep Mat and ScanWatch data. It includes:
    - Timestamp processing  
    - Daily aggregation of values  
    - Sleep state calculations specific to the dataset
