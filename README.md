@@ -27,7 +27,13 @@ The RESILIENT dataset is organised into four main components:1) A CSV file conta
 |              | **Sleep Physiology**   | - **Heart Rate**: Measured every minute. <br> - **Respiration Rate**: Measured every minute. <br> - **Snoring**: Total snoring duration (seconds) per minute. <br> - **SDNN 1**: Standard deviation of heart rate over a one-minute window. <br> - **Timestamp**: Timestamp of each record. |
 | **N/A**       | **Demographics**      | - **Sex**: Male or Female. <br> - **ACE-III Scores**: Total scores at baseline and 6-month follow-up with individual item scores. <br> - **PHQ-9, GDS-15, GAD-7 Scores**: Total score at baseline and individual question scores. <br> - **Assessment Date**: Date each assessment was taken. <br> - **Essential Hypertension**: True or False. <br> - **Osteoarthritis**: True or False. |
 
+**Ethics statement:**
 
+The RESILIENT study has been reviewed and approved by the London-Surrey Borders Research Ethics Committee and the Health Research Authority and is registered on the Integrated Research Application System (IRAS) under reference number 321104. This publicly available dataset includes remote healthcare monitoring data and baseline mental health and cognitive assessments conducted throughout the monitoring period, providing a comprehensive resource for analysing health trends and detecting early signs of cognitive and physiological decline.
+
+**Dataset anonymisation:**
+
+A two-stage de-identification process was applied to the data. In the first stage, the data was pseudo-anonymised to develop analytical methods for the study. In the second stage, data was fully anonymised by removing all personally identifying information and any identifiable attributes. Participants are randomly assigned a Universally Unique Identifier (UID) to enhance security during de-identification. This ensures demographics and raw monitoring data from sleep mats and scan watches cannot be traced back to individuals while preserving the data’s utility for analysis.
 
 ## Running the code
 We have provided raw data and guidelines on how to access, aggregate, and visualise the dataset. The Jupyter Notebooks have been developed using Python 3.9. 
