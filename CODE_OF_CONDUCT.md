@@ -2,7 +2,7 @@
 
 At TMI-LAB, we recognise and celebrate the creativity and collaboration of open source contributors and the diversity of skills, experiences, cultures, and opinions they bring to the projects and communities they participate in.
 
-We value diverse opinions, but we value respectful behavior more.
+We value diverse opinions, but we value respectful behaviour more.
 
 
 ---
