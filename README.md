@@ -41,7 +41,7 @@ For reproducing the code, the required Python packages can be installed using th
 ```
 pip install -r requirements.txt
 ```
-Please download the data from [Zenodo repository](https://zenodo.org/records/16755408) and unzip the `Sleepmat_Watch_Data.zip` in the data folder before running the code.
+Please download the data from [Zenodo repository](https://zenodo.org/records/16755408), unzip the `Sleepmat_Watch_Data.zip` file, and place both `Sleepmat_Watch_Data` folder and `Demographics.csv` inside the **code** folder before running the code.
 
 All code files are located in the `code` folder. There are two main Jupyter notebooks:
 
